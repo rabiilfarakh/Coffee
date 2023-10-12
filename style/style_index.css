@@ -66,28 +66,33 @@ main .content p{
     margin-top: 20px;
     font-size: 30px;
 }
-main .order_now{
+main .order_now a{
     width: 190px;
-    height: 50px;
+    height: 40px;
     margin-left: 120px;
+    text-align: center;
+    padding-top: 15px;
     margin-top: 50px;
     border-radius: 10px;
     background-color: #B77E66;
     border: 1px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
+    position: absolute;
+    text-decoration: none;
 }
 
-main .order_now:hover{
+main .order_now a:hover{
     background-color: white;
     color: black;
 }
 
+
 /**************************************************/
 main .sec2 .img1{
     width: 100%;
-    margin-top: 208px;
+    margin-top: 310px;
 }
 main .sec2 .content{
 
@@ -107,13 +112,13 @@ main .sec2 .content p{
     font-family: Arial, Helvetica, sans-serif;
 }
 main .sec2 .order_now{
-    margin-left: 1000px;
+margin-left: 900px;
 }
 
 /*************************************************/
 main .sec3 .img1{
     width: 100%;
-    margin-top: 260px;
+    margin-top: 380px;
 }
 main .sec3 h1{
     color: white;
@@ -127,6 +132,7 @@ main .sec3 h1{
     text-align: center;
     padding-top: 25px;
     font-size: 50px;
+
 }
 
 main .sec3 .content .txt1{
@@ -135,6 +141,7 @@ main .sec3 .content .txt1{
     margin-left: 700px;
     width: 250px;
     font-size: 42px;
+    text-decoration: none;
 }
 main .sec3 .content .txt2{
     color: white;
@@ -270,14 +277,14 @@ main .sec5 .articles .box .txt2{
     font-size: 20px;
     margin-left: 50px;
 }
-
-main .sec6{
-    margin-top: 80px;
+main .localisation{
+    margin-top: 480px;
     height: 450px;
     margin-left: 20px;
     width: 97%;
     margin: 70px 12px;
     border: 5px solid #795341;
+
 }
 
 
